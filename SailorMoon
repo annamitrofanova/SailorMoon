@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+#include <time.h>
+
+#include <stdlib.h>
+
+
+
+int main(){
+    
+printf("Генератор фраз Сейлор Мун\n");
+	
+char *sila[] = { "Лунная призма", "Венера", "Меркурий", "Юпитер", "Марс", "Уран", "Плутон", "Нептун", "Сатурн" };
+	
+char *nesu[] = { "возмездие", "справедливость", "добро", "правосудие" };
+	
+char *imya[] = { "Луны", "света", "добра", "будущего" };
+	
+char *voin[] = { "в матроске", "света", "Луны", "добра" };
+	
+srand ( time(NULL) );
+	
+int b = rand();
+	
+int k = b % 3; b = rand();
+	
+int s = b % 9; b = rand();
+	
+int n = b % 4;  b = rand();
+	
+int i = b % 4;  b = rand();
+	
+int v = b % 4;
+    
+switch(k)
+   
+{ 
+case 0: 
+    
+printf("%s, дай мне силу!\n", sila[s]); break;
+    
+case 1:
+    
+printf("Я несу %s во имя %s.\n", nesu[n], imya[i]); break;
+    
+case 2:
+    printf ("Я воин %s.\n",voin[v]); break;
+    
+default: return 1;
+	
+getchar();
+	
+return 0;
+    
+}
