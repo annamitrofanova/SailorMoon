@@ -98,7 +98,7 @@ default: return 1;
 h++;
 }
 
-for (h = 0; h < l; h++) printf("%s\n", kon[h]);
+for (h = 0; h < l; h++) printf("%s ", kon[h]);
 
 
 return 0;
