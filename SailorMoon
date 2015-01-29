@@ -9,19 +9,19 @@ D=Yk|zz
 #include <time.h>
 #include <stdlib.h>
 
-const static char * const a =  "Когда Вы говорите, Иван Васильевич, впечатление такое, что Вы бредите." ;
-const static char * const b = "А что, вас уже выпустили из сумасшедшего дома?";
-const static char * const xx = "А боярыня моя со своим любовником Якиным на Кавказ сегодня убежала.";
-const static char * const zz =  "Эх, Марфуша, нам ли быть в печали?" ;
+const static char * const a =  "Когда Вы говорите, Иван Васильевич, " ;
+const static char * const b = "впечатление такое, что Вы бредите.";
+const static char * const xx = "из сумасшедшего дома?";
+const static char * const zz =  "Эх, Марфуша, " ;
 
-const static char * const m =  "Царь, очень приятно, здравствуйте, царь!" ;
-const static char * const w =  "Танцуют все!" ;
-const static char * const p =  "Ох, тяжко мне! Молви еще раз, ты не демон?" ;
-const static char * const r=  "Лжёшь, собака! Аз есмь царь!" ;
-const static char * const k =  "Ты чьих будешь? Чей холоп, спрашиваю?" ;
-const static char * const v =  "Оставь меня, старушка, я в печали." ;
-const static char * const u =  "Ты пошто боярыню обидел, смерд?!" ;
-const static char * const f =  "Сейчас милиция разберется, кто из нас холоп." ;
+const static char * const m =  "Царь, очень приятно, " ;
+const static char * const w =  "Здравствуйте, царь!" ;
+const static char * const p =  "А что, вас уже выпустили " ;
+const static char * const r=  "Молви еще раз, " ;
+const static char * const k =  "из сумасшедшего дома?" ;
+const static char * const v =  "ты не демон?" ;
+const static char * const u =  "Оставь меня старушка," ;
+const static char * const f =  "нам ли быть в печали?" ;
 
 void S();
 void Y();
